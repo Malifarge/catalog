@@ -2,6 +2,7 @@
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import catalog from '../catalog.json'
+import '../styles/film.css'
 
 const Film = () => {
   const params = useParams()

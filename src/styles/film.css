@@ -1,0 +1,37 @@
+
+body{
+    background: url(../images/cinema.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+.about{
+    width: 70%;
+    background: rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    border-radius: 50px 0 50px 0;
+}
+
+.h268{
+    height: 268px;
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    color: rgba(255, 255, 255, 0.632);
+    border: 2px solid #FC7987 ;
+    border-radius: 50px ;
+    position: absolute;
+    right: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: 1px underline #FC7987;
+}
